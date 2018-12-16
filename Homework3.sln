@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesBoardConsoleApp", "MessagesBoardConsoleApp\MessagesBoardConsoleApp.csproj", "{91B57EF4-E7E0-462E-9088-CD7253728DB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagesBoardClassLibrary", "MessagesBoardClassLibrary\MessagesBoardClassLibrary.csproj", "{96262D34-67A8-4707-9302-96EB628E3979}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{91B57EF4-E7E0-462E-9088-CD7253728DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91B57EF4-E7E0-462E-9088-CD7253728DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91B57EF4-E7E0-462E-9088-CD7253728DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96262D34-67A8-4707-9302-96EB628E3979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96262D34-67A8-4707-9302-96EB628E3979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96262D34-67A8-4707-9302-96EB628E3979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96262D34-67A8-4707-9302-96EB628E3979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
