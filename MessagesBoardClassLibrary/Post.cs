@@ -13,18 +13,14 @@ namespace MessageBoardClassLibrary
         public int Id { get; set; }
         public String PostText { get;  set; }
         public DateTime PostedDate { get;  set; }
-      
 
-        //constructor
+        // constructor
         public Post(int id, string author, string message, DateTime postedDate)
-            
         {
             this.Id = id;
             this.Author = author;
             this.PostText = message;
             this.PostedDate = postedDate;
         }
-
-
     }
 }

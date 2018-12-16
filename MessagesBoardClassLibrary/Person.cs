@@ -8,13 +8,13 @@ namespace MessagesBoardClassLibrary
     public class Person
     {
         // properties
-        public int Id { get; private set;}
         public String FirstName { get; private set; }
         public String LastName { get; private set; }
         public String Email { get; private set; }
         public DateTime BirthDate{ get; private set; }
 
         // additional properties we could use in addition to those requested in the requirements
+        public int Id { get; private set; }
         public virtual string FullName
         {
             get { return $"{FirstName} {LastName}"; }
@@ -30,7 +30,6 @@ namespace MessagesBoardClassLibrary
 
         // constructor 
         public Person(int id, string firstName, string lastName, string email, DateTime birthDate)
-            
         {
             this.Id = id;
             this.FirstName = firstName;
@@ -38,9 +37,9 @@ namespace MessagesBoardClassLibrary
             this.Email = email;
             this.BirthDate = birthDate;
         }
-        
 
         // methods
+
         // C - create
         public void CreateAccount()
         {
@@ -48,20 +47,19 @@ namespace MessagesBoardClassLibrary
 
         // additional methods we could use in addition to those requested in the requirements
 
-        //R - read
+        // R - read
         public void GetAccountInfoById(int Id)
         {
             
         }
 
-        //U- update
+        // U- update
         public void UpdateAccountInfo()
         {
 
         }
-         //additional methos we may need
 
-        //D - delete
+        // D - delete
         public void RemoveAccount()
         {
 
