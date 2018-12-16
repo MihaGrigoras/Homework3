@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MessagesBoardClassLibrary\MessagesBoardClassLibrary.csproj" />
+    <ProjectReference Include="..\MessagesBoardClassLibrary\MessageBoardClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>
